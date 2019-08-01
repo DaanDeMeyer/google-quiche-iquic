@@ -114,6 +114,7 @@ enum QuicTransportVersion {
   // version negotiation when proposed by clients and to prevent client
   // ossification when sent by servers.
   QUIC_VERSION_RESERVED_FOR_NEGOTIATION = 999,
+  IQUIC_DRAFT_22 = 367
 };
 
 // The crypto handshake protocols that can be used with QUIC.
